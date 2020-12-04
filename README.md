@@ -1,14 +1,6 @@
 # project-taro
 # 项目结构
-              ├─.editorconfig
-              ├─.eslintrc.js
-              ├─.gitignore
-              ├─babel.config.js
-              ├─package.json
-              ├─project.config.json
-              ├─README.md
-              ├─result.txt
-              ├─yarn.lock
+       
               ├─src
               |  ├─app.config.js
               |  ├─app.js
@@ -17,8 +9,8 @@
               |  ├─static
               |  |   ├─images
               |  |   |   └a.png
-              |  ├─service
-              |  ├─pages
+              |  ├─service   api接口服务
+              |  ├─pages  页面
               |  |   ├─index
               |  |   |   ├─index.config.js
               |  |   |   ├─index.h5.config.js
@@ -29,13 +21,13 @@
               |  |   ├─about
               |  |   |   ├─about.config.js
               |  |   |   └about.jsx
-              |  ├─components
+              |  ├─components  组件
               |  |     ├─Footer
               |  |     |   ├─Footer.h5.jsx
               |  |     |   ├─Footer.jsx
               |  |     |   └footer.scss
-              |  ├─apiConfig
-              ├─config
+              |  ├─apiConfig  api配置（开发、测试、环境）
+              ├─config  环境配置入口
               |   ├─dev.js
               |   ├─index.js
               |   ├─prod.js
