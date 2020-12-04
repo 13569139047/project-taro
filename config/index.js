@@ -22,6 +22,9 @@ const config = {
   },
   alias: {
     '@components': path.resolve(__dirname, '..', 'src/components'),
+    '@pages': path.resolve(__dirname, '..', 'src/pages'),
+    '@service': path.resolve(__dirname, '..', 'src/service'),
+    '@apiConfig': path.resolve(__dirname, '..', 'src/apiConfig'),
   },
   framework: 'react',
   mini: {
